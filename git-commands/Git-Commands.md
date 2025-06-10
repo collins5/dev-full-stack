@@ -29,3 +29,8 @@ Permet de créer une branche
 
 # git pull
 Permet de récupérer les modifications distantes
+
+# git rebase
+- Permet de récuperer les modifications dans de la branche mère
+- Les modifications de la branche mère sont placées en dessous des modifications de la branche courante
+- Les modifications de la branche courante sont placèes au dessus des modifications de la branche mère.
