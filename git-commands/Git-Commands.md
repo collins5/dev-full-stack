@@ -34,3 +34,11 @@ Permet de récupérer les modifications distantes
 - Permet de récuperer les modifications dans de la branche mère
 - Les modifications de la branche mère sont placées en dessous des modifications de la branche courante
 - Les modifications de la branche courante sont placèes au dessus des modifications de la branche mère.
+
+# git reset
+- Permet de supprimer un commit
+- Permet de revenir á un commit defini par son identifiant
+- Attention á utiliser avec précaution
+
+# git diff 
+- Permet de comparer deux commits
