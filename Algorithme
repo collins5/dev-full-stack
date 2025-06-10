@@ -1,0 +1,47 @@
+Algorithme pour le besoin: dire bonjour
+
+
+  Algorithme dire bonjour
+  Debut
+      afficher "Bonjour et bienvenue dans la formation"
+  Fin
+
+  Algorithme dire Bonjour á quelqu'un(e)
+      nom chaine[0...300]
+  Debut
+      Lire nom;
+      afficher "Bonjour et bienvenue dans la formation" + nom;
+  Fin
+
+
+  Algorithme operations
+      premierEntier entier;
+      secondEntier entier;
+      operation entier;
+      resultat nombre = 0;
+  Debut
+      afficher "Ce programme permet d'effectuer des operations";
+      afficher "Veuillez saisir un premier entier";
+      lire premierEntier;
+
+      afficher "Veuillez saisir un operateur";
+      afficher "Pour l'addition saisir 1";
+      afficher "Pour le produit saisir 2";
+      afficher "Pour le factoriel saisir 3";
+
+      Lire operateur;
+      si(operateur != 1) et (operateur !=2) et (operateur !=3) alors
+        arret;
+
+      afficher "Veuillez saisir un second entier"
+      lire secondEntier;
+
+      si(operateur == 1)alors
+        resultat = premierEntier + secondEntier;
+        afficher "La somme est " + resultat;
+      sinon
+        resultat = premierEntier * secondEntier;
+        afficher "Le produit est " + resultat;
+      fin
+
+  Fin
